@@ -1,0 +1,25 @@
+{
+  "name": "node-express",
+  "description": "node express demo",
+  "main": "app.js",
+  "authors": [
+    "Sean Jones"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "homepage": "https://github.com/cssmonkey/node-express",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.1"
+  }
+}

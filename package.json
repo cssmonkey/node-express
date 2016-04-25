@@ -1,0 +1,27 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "node express demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cssmonkey/node-express.git"
+  },
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "author": "Sean Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cssmonkey/node-express/issues"
+  },
+  "homepage": "https://github.com/cssmonkey/node-express#readme",
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}

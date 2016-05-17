@@ -1,7 +1,23 @@
+
 html
   head
+    //- bower:css
+
+    //- endbower
+    //- bower:js
+
+    //- endbower
+    //- inject:css
+
+    //- endinject
+    //- inject:js
+
+    //- endinject
     title test
-    body
-      h1 test
+    body(class='myClass')
+      h1(id='myId') test
         div
           h3 sub heading
+          ul
+            each val in list
+              li= val

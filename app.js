@@ -7,11 +7,19 @@ app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
-    res.render('index', {list: ['a','b']});
+    res.render('index', {
+      title: 'Hello from render',
+      nav: [{
+        Link: '/Books', Text: 'Books'
+      }, {
+        Link: '/Authors',
+        Text: 'Authors'
+      }]
+    });
 });
 
-app.get('/test', function(req, res) {
-    res.send('Hello test');
+app.get('/books', function(req, res) {
+    res.send('Hello Books');
 });
 
 app.listen(port, function(err){

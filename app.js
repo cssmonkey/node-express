@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
     res.render('index', {
-      title: 'Hello from render',
+      title: 'App title goes here',
       nav: [{
         Link: '/Books', Text: 'Books'
       }, {
